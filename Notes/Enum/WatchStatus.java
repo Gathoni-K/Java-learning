@@ -20,14 +20,17 @@ package Notes.Enum;
 
 public enum WatchStatus {
     PLAN_TO_WATCH("Plan to Watch"){
+        @Override
         public boolean canUpdateProgress() { return false;}
     },
     WATCHING("Watching"){
+        @Override
         public boolean canUpdateProgress() {
             return true;
         }
     },
     COMPLETED("Completed"){
+        @Override
         public boolean canUpdateProgress(){
             return false;
         }
@@ -40,5 +43,6 @@ public enum WatchStatus {
     }
 
     public abstract boolean canUpdateProgress();
+    //this tells Java that every constant must implement the method 'canUpdateProgress()'
 
 }

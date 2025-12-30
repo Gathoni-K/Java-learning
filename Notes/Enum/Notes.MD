@@ -35,8 +35,8 @@ Are powerful but specialised.
 
 # Enums storing data.
 -Used when each constant has attributes.
--Behaviour is motly same.
--MOdelling the properties not actions.
+-Behaviour is mostly same.
+-Modelling the properties not actions.
 -Each enum constant is an object with fields
     '
 
