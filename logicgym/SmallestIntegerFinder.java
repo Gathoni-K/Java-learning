@@ -1,3 +1,4 @@
+package logicgym;
 /*
 Given an array of integers, return the smallest integer
 */

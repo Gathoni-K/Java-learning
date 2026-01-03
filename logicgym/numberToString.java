@@ -1,3 +1,4 @@
+package logicgym;
 /*
 A function that transforms a number to a string
  */

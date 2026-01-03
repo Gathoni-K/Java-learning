@@ -1,3 +1,4 @@
+package logicgym;
 /*
 A function taking an array of numbers and returns the sum
 of numbers.
